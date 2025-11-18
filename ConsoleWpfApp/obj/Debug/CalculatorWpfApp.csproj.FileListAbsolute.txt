@@ -1,0 +1,13 @@
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\CalculatorWpfApp.csproj.AssemblyReference.cache
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\MainWindow.baml
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\App.g.cs
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\CalculatorWpfApp_MarkupCompile.cache
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\CalculatorWpfApp.g.resources
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\CalculatorWpfApp.Properties.Resources.resources
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\CalculatorWpfApp.csproj.GenerateResource.cache
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\CalculatorWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\bin\Debug\CalculatorWpfApp.exe
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\bin\Debug\CalculatorWpfApp.pdb
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\CalculatorWpfApp.exe
+C:\Users\Guest 1\source\repos\CalculatorWpfApp\CalculatorWpfApp\obj\Debug\CalculatorWpfApp.pdb
