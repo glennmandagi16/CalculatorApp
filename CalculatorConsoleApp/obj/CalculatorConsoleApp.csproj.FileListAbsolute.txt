@@ -1,6 +1,0 @@
-C:\Users\Guest 1\source\repos\CalculatorConsoleApp\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
-C:\Users\Guest 1\source\repos\CalculatorConsoleApp\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
-C:\Users\Guest 1\source\repos\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csproj.AssemblyReference.cache
-C:\Users\Guest 1\source\repos\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\Guest 1\source\repos\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
-C:\Users\Guest 1\source\repos\CalculatorConsoleApp\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
