@@ -1,0 +1,45 @@
+﻿<Window x:Class="CalculatorWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calculator WPF" Height="350" Width="450">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0 10">
+            <TextBlock Text="Angka 1:" Width="120" VerticalAlignment="Center"/>
+            <TextBox x:Name="Input1" Width="200"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0 10">
+            <TextBlock Text="Angka 2:" Width="120" VerticalAlignment="Center"/>
+            <TextBox x:Name="Input2" Width="200"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0 10">
+            <TextBlock Text="Operasi:" Width="120" VerticalAlignment="Center"/>
+            <ComboBox x:Name="OperationBox" Width="200">
+                <ComboBoxItem Content="Tambah (+)" Tag="add"/>
+                <ComboBoxItem Content="Kurang (-)" Tag="sub"/>
+                <ComboBoxItem Content="Kali (×)" Tag="mul"/>
+                <ComboBoxItem Content="Bagi (÷)" Tag="div"/>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0 10">
+            <Button Content="Hitung" Width="120" Click="Hitung_Click"/>
+            <Button Content="Clear" Width="120" Margin="10 0" Click="Clear_Click"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="4" x:Name="Output"
+                   Text="Hasil akan muncul di sini"
+                   FontSize="18"
+                   VerticalAlignment="Top"
+                   Margin="0 20 0 0"/>
+    </Grid>
+</Window>
