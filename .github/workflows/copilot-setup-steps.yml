@@ -1,0 +1,39 @@
+name: Copilot Setup Steps
+
+on:
+  push:
+    branches:
+      - calculator-console-app
+  pull_request:
+    branches:
+      - calculator-console-app
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: calculator-console-app
+      
+      - name: Set up environment
+        run: |
+          echo "Setting up Copilot development environment..."
+          echo "Node version: $(node --version)"
+          echo "npm version: $(npm --version)"
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Run tests
+        run: npm test
+      
+      - name: Build project
+        run: npm run build
+      
+      - name: Copilot analysis
+        run: |
+          echo "Running Copilot-assisted checks..."
+          # Add your Copilot-specific checks here
